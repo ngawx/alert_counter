@@ -30,7 +30,7 @@ async function updateAlertCounts() {
     const box = document.querySelector(`.${key}`);
     if (box) {
       if (key === 'tornado-warning') box.textContent = `Tornado Warnings: ${value}`;
-      if (key === 'severe-thunderstorm-warning') box.textContent = `Severe Thunderstorm Warnings: ${value}`;
+      if (key === 'severe-thunderstorm-warning') box.textContent = `Severe T-Storm Warnings: ${value}`;
       if (key === 'severe-watch') box.textContent = `Severe Watches: ${value}`;
       if (key === 'flood-alert') box.textContent = `Flood Alerts: ${value}`;
       if (key === 'flood-watch') box.textContent = `Flood Watches: ${value}`;
