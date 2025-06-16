@@ -1,4 +1,3 @@
-
 const counterMap = {
   'Tornado Warning': 'tornado-warning',
   'Severe Thunderstorm Warning': 'severe-thunderstorm-warning',
@@ -40,4 +39,4 @@ async function updateAlertCounts() {
 }
 
 updateAlertCounts();
-setInterval(updateAlertCounts, 60000); // every 60 seconds
+setInterval(updateAlertCounts, 60000); // refresh every 60 seconds
